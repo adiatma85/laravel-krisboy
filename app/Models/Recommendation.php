@@ -27,6 +27,7 @@ class Recommendation extends Model implements HasMedia
     protected $fillable = [
         'title',
         'overview_description',
+        'tag_id',
         'created_at',
         'updated_at',
         'deleted_at',
@@ -36,6 +37,11 @@ class Recommendation extends Model implements HasMedia
     {
         $this->addMediaConversion('thumb')->fit('crop', 50, 50);
         $this->addMediaConversion('preview')->fit('crop', 120, 120);
+    }
+
+    public function tag()
+    {
+        return $this->belongsTo(Tag::class, 'tag_id');
     }
 
     protected function serializeDate(DateTimeInterface $date)
