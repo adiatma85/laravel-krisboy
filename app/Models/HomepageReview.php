@@ -34,6 +34,6 @@ class HomepageReview extends Model
     }
 
     public function reviews(){
-        return $this->hasMany(Review::class, "homeoage_review_id");
+        return $this->hasMany(Review::class, "homepage_review_id");
     }
 }
