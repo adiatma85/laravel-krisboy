@@ -35,6 +35,7 @@ class Review extends Model implements HasMedia
         'konektivitas_description',
         'kesimpulan',
         'tag_id',
+        'homepage_review_id',
         'created_at',
         'updated_at',
         'deleted_at',
@@ -49,6 +50,10 @@ class Review extends Model implements HasMedia
     public function tag()
     {
         return $this->belongsTo(Tag::class, 'tag_id');
+    }
+
+    public function homepage_review(){
+        return $this->belongsTo(HomepageReview::class, 'homepage_review_id');
     }
 
     protected function serializeDate(DateTimeInterface $date)

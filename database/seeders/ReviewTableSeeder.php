@@ -27,10 +27,11 @@ class ReviewTableSeeder extends Seeder
                 'konektivitas_description' => 'Lorem ipsum sir dolor amet konektivitas description yang panjang dan lebar' ,
                 'kesimpulan' => 'Lorem ipsum sir dolor amet kesimpulan description yang panjang dan lebar',
                 'tag_id' => 1,
+                'homepage_review_id' => 1,
             ],
             [
                 'title' => 'Dell bukan kuliah',
-                'gadget_name' => 'Asus Zenbook',
+                'gadget_name' => 'Dell ini untuk kuliah',
                 'overview_description' => 'Lorem ipsum sir dolor amet overview description yang panjang dan lebar',
                 'desain_description' => 'Lorem ipsum sir dolor amet desain description yang panjang dan lebar',
                 'performa_description' => 'Lorem ipsum sir dolor amet performa description yang panjang dan lebar',
@@ -39,10 +40,11 @@ class ReviewTableSeeder extends Seeder
                 'konektivitas_description' => 'Lorem ipsum sir dolor amet konektivitas description yang panjang dan lebar' ,
                 'kesimpulan' => 'Lorem ipsum sir dolor amet kesimpulan description yang panjang dan lebar',
                 'tag_id' => 1,
+                'homepage_review_id' => null,
             ],
             [
                 'title' => 'HP buat kuliah',
-                'gadget_name' => 'Asus Zenbook',
+                'gadget_name' => 'HP yang cocok untuk kuliah hehehe',
                 'overview_description' => 'Lorem ipsum sir dolor amet overview description yang panjang dan lebar',
                 'desain_description' => 'Lorem ipsum sir dolor amet desain description yang panjang dan lebar',
                 'performa_description' => 'Lorem ipsum sir dolor amet performa description yang panjang dan lebar',
@@ -51,6 +53,7 @@ class ReviewTableSeeder extends Seeder
                 'konektivitas_description' => 'Lorem ipsum sir dolor amet konektivitas description yang panjang dan lebar' ,
                 'kesimpulan' => 'Lorem ipsum sir dolor amet kesimpulan description yang panjang dan lebar',
                 'tag_id' => 1,
+                'homepage_review_id' => 1,
             ],
         ];
         // Tag Gaming
