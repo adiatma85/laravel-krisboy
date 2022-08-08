@@ -5,12 +5,14 @@ namespace App\Http\Controllers\Api\V1\Public;
 use App\Http\Controllers\Controller;
 use App\Models\HomepageReview;
 use App\Models\Review;
+use App\Models\Brand;
 use App\Models\Tag;
 use Illuminate\Http\Request;
 
 class HomepageApiController extends Controller
 {
-    public function reviews(Request $request){
+
+    public function topReviews(Request $request){
         // Get the activated homepage review
         $homepageReview = HomepageReview::
             where([
@@ -43,5 +45,21 @@ class HomepageApiController extends Controller
         ];
 
         return response()->json($response, 200);
+    }
+
+    public function bottomReviews(Request $request){
+
+    }
+
+    public function tagReveal(Request $request){
+        $tags = Tag::select('id', 'name')->get();
+
+        return $this->response('success fetch', 200, $tags);
+    }
+
+    public function brandReveal(Request $request){
+        $brands = Brand::select('id', 'name')->get();
+
+        return $this->response('success fetch', 200, $brands);
     }
 }

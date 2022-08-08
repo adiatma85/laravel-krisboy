@@ -30,6 +30,7 @@ class ReviewTableSeeder extends Seeder
                 'homepage_review_id' => 1,
                 'price' => 7500000,
                 'overall_rating' => 4.1,
+                'brand_id' => 1,
             ],
             [
                 'title' => 'Dell bukan kuliah',
@@ -45,6 +46,7 @@ class ReviewTableSeeder extends Seeder
                 'homepage_review_id' => null,
                 'price' => 10000000,
                 'overall_rating' => 3.9,
+                'brand_id' => 7,
             ],
             [
                 'title' => 'HP buat kuliah',
@@ -60,6 +62,7 @@ class ReviewTableSeeder extends Seeder
                 'homepage_review_id' => 1,
                 'price' => 7250000,
                 'overall_rating' => 4.2,
+                'brand_id' => 2,
             ],
         ];
         // Tag Gaming

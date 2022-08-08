@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
             RoleUserTableSeeder::class,
 
             // Custom
+            BrandTableSeeder::class,
             HomepageReviewTableSeeder::class,
             TagTableSeeder::class,
             ReviewTableSeeder::class,

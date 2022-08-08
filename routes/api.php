@@ -27,5 +27,11 @@ Route::group(['prefix' => 'v1/public', 'as' => 'api.public.', 'namespace' => 'Ap
         return response()->json("testing", 200);
     });
 
-    Route::get('homepage/review', 'HomepageApiController@reviews')->name('homepage.reviews');
+    Route::get('homepage/review-top', 'HomepageApiController@topReviews')->name('homepage.topReviews');
+
+    Route::get('homepage/review-bottom', 'HomepageApiController@bottomReviews')->name('homepage.bottomReviews');
+
+    Route::get('homepage/tags', 'HomepageApiController@tagReveal')->name('homepage.categoryReveal');
+
+    Route::get('homepage/brands', 'HomepageApiController@brandReveal')->name('homepage.brandReveal');
 });
