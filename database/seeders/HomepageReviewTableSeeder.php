@@ -17,7 +17,7 @@ class HomepageReviewTableSeeder extends Seeder
         $homepageReviews = [
             [
                 'title' => 'Harga laptop tujuh jutaan',
-                'is_activated' => true,
+                'is_active' => true,
             ],
         ];
 

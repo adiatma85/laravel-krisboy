@@ -22,7 +22,7 @@ class HomepageReview extends Model
 
     protected $fillable = [
         'title',
-        'is_activated',
+        'is_active',
         'created_at',
         'updated_at',
         'deleted_at',

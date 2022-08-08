@@ -16,7 +16,7 @@ class CreateHomepageReviewContentTable extends Migration
         Schema::create('homepage_review_contents', function (Blueprint $table) {
             $table->id();
             $table->string('title')->nullable();
-            $table->boolean('is_activated')->default(false);
+            $table->boolean('is_active')->default(false);
             $table->timestamps();
             $table->softDeletes();
         });

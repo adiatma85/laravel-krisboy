@@ -34,6 +34,8 @@ class Review extends Model implements HasMedia
         'baterai_description',
         'konektivitas_description',
         'kesimpulan',
+        'price',
+        'overall_rating',
         'tag_id',
         'homepage_review_id',
         'created_at',

@@ -28,6 +28,8 @@ class ReviewTableSeeder extends Seeder
                 'kesimpulan' => 'Lorem ipsum sir dolor amet kesimpulan description yang panjang dan lebar',
                 'tag_id' => 1,
                 'homepage_review_id' => 1,
+                'price' => 7500000,
+                'overall_rating' => 4.1,
             ],
             [
                 'title' => 'Dell bukan kuliah',
@@ -41,6 +43,8 @@ class ReviewTableSeeder extends Seeder
                 'kesimpulan' => 'Lorem ipsum sir dolor amet kesimpulan description yang panjang dan lebar',
                 'tag_id' => 1,
                 'homepage_review_id' => null,
+                'price' => 10000000,
+                'overall_rating' => 3.9,
             ],
             [
                 'title' => 'HP buat kuliah',
@@ -54,6 +58,8 @@ class ReviewTableSeeder extends Seeder
                 'kesimpulan' => 'Lorem ipsum sir dolor amet kesimpulan description yang panjang dan lebar',
                 'tag_id' => 1,
                 'homepage_review_id' => 1,
+                'price' => 7250000,
+                'overall_rating' => 4.2,
             ],
         ];
         // Tag Gaming
