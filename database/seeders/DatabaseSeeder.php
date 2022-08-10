@@ -20,6 +20,9 @@ class DatabaseSeeder extends Seeder
             HomepageReviewTableSeeder::class,
             TagTableSeeder::class,
             ReviewTableSeeder::class,
+
+            // Media
+            MediaTableSeeder::class,
         ]);
     }
 }
