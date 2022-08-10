@@ -58,7 +58,22 @@ class HomepageApiController extends Controller
     }
 
     public function brandReveal(Request $request){
-        $brands = Brand::select('id', 'name')->get();
+        $brands = Brand::select('id', 'name')
+            ->with(['media' => function($query){
+                // $query->select('');
+            }])
+            ->get();
+
+        // foreach ($brands as $brand) {
+        //     $image = $brand->media;
+
+        //     if (!$image) {
+        //         continue;
+        //     }
+
+        //     $brand['image_url'] = $image[0]->original_url;
+        //     unset($brand->media);
+        // }
 
         return $this->response('success fetch', 200, $brands);
     }
