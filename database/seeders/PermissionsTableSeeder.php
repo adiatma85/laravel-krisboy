@@ -140,6 +140,26 @@ class PermissionsTableSeeder extends Seeder
             ],
             [
                 'id'    => 33,
+                'title' => 'brand_create',
+            ],
+            [
+                'id'    => 34,
+                'title' => 'brand_edit',
+            ],
+            [
+                'id'    => 35,
+                'title' => 'brand_show',
+            ],
+            [
+                'id'    => 36,
+                'title' => 'brand_delete',
+            ],
+            [
+                'id'    => 37,
+                'title' => 'brand_access',
+            ],
+            [
+                'id'    => 38,
                 'title' => 'profile_password_edit',
             ],
         ];

@@ -135,4 +135,22 @@ return [
             'deleted_at_helper'           => ' ',
         ],
     ],
+    'brand' => [
+        'title'          => 'Brand',
+        'title_singular' => 'Brand',
+        'fields'         => [
+            'id'                => 'ID',
+            'id_helper'         => ' ',
+            'name'              => 'Name',
+            'name_helper'       => ' ',
+            'created_at'        => 'Created at',
+            'created_at_helper' => ' ',
+            'updated_at'        => 'Updated at',
+            'updated_at_helper' => ' ',
+            'deleted_at'        => 'Deleted at',
+            'deleted_at_helper' => ' ',
+            'image'             => 'Image',
+            'image_helper'      => ' ',
+        ],
+    ],
 ];

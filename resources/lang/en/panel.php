@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'MusclePrepper',
+    'site_title' => 'Rah Gadget',
 ];
